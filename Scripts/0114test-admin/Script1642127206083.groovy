@@ -17,3 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://alpha-admin.shopby.co.kr/pro/auth')
+
+WebUI.setText(findTestObject('Page_shopby-pro-admin/input_id'), 'shopbyproadmin')
+
+WebUI.setEncryptedText(findTestObject('Page_shopby-pro-admin/input_password'), 'YY6OvKdam5zXcWhrYqhBkg==')
+
+WebUI.click(findTestObject('Page_shopby-pro-admin/button_login'))
