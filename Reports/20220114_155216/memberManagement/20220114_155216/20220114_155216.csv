@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+memberManagement,Chrome 97.0.4692.71,,,2022-01-14 15:52:26,2022-01-14 15:52:45,19.067s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 97.0.4692.71,,,2022-01-14 15:52:26,2022-01-14 15:52:39,12.945s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 15:52:27,2022-01-14 15:52:35,8.028s,PASSED
+"navigateToUrl(""https://alpha-admin.shopby.co.kr/pro/auth"")",Chrome 97.0.4692.71,,,2022-01-14 15:52:35,2022-01-14 15:52:37,2.764s,PASSED
+"setText(findTestObject(""Page_shopby-pro-admin/input_id""), ""shopbyproadmin"")",Chrome 97.0.4692.71,,,2022-01-14 15:52:37,2022-01-14 15:52:38,0.767s,PASSED
+"setEncryptedText(findTestObject(""Page_shopby-pro-admin/input_password""), ""YY6OvKdam5zXcWhrYqhBkg=="")",Chrome 97.0.4692.71,,,2022-01-14 15:52:38,2022-01-14 15:52:39,0.434s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/button_login""))",Chrome 97.0.4692.71,,,2022-01-14 15:52:39,2022-01-14 15:52:39,0.379s,PASSED
+,,,,,,,
+Test Cases/memberList,Chrome 97.0.4692.71,,,2022-01-14 15:52:39,2022-01-14 15:52:43,3.742s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_member""))",Chrome 97.0.4692.71,,,2022-01-14 15:52:40,2022-01-14 15:52:42,2.361s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MembeLlist""))",Chrome 97.0.4692.71,,,2022-01-14 15:52:42,2022-01-14 15:52:43,0.776s,PASSED
+,,,,,,,
+Test Cases/membeReg,Chrome 97.0.4692.71,,,2022-01-14 15:52:43,2022-01-14 15:52:45,1.989s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-14 15:52:44,2022-01-14 15:52:44,0.606s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MemberReg""))",Chrome 97.0.4692.71,,,2022-01-14 15:52:44,2022-01-14 15:52:45,0.571s,PASSED

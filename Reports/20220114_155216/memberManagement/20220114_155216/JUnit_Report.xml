@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="memberManagement" time="19.067" tests="3" failures="0" errors="0">
+   <testsuite name="memberManagement" tests="3" failures="0" errors="0" time="19.067" skipped="0" timestamp="2022-01-14 15:52:26" hostname="NHN - AL01590832" id="Test Suites/memberManagement">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NHN\\git\\shopby\\Reports\\20220114_155216\\memberManagement\\20220114_155216"/>
+         <property name="logFiles" value="C:\\Users\\NHN\\git\\shopby\\Reports\\20220114_155216\\memberManagement\\20220114_155216\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NHN - AL01590832"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.0.8"/>
+         <property name="sessionId" value="f36ad10ca2e2fe43ee356554fc546903"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" time="12.945" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2022-01-14 15:52:26 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2022-01-14 15:52:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-14 15:52:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-14 15:52:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-14 15:52:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-14 15:52:35 - [TEST_STEP][PASSED] - navigateToUrl("https://alpha-admin.shopby.co.kr/pro/auth"): Navigate to 'https://alpha-admin.shopby.co.kr/pro/auth' successfully
+
+2022-01-14 15:52:37 - [MESSAGE][PASSED] - Navigate to 'https://alpha-admin.shopby.co.kr/pro/auth' successfully
+
+2022-01-14 15:52:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_shopby-pro-admin/input_id"), "shopbyproadmin"): Text 'shopbyproadmin' is set on object 'Object Repository/Page_shopby-pro-admin/input_id'
+
+2022-01-14 15:52:38 - [MESSAGE][PASSED] - Text 'shopbyproadmin' is set on object 'Object Repository/Page_shopby-pro-admin/input_id'
+
+2022-01-14 15:52:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_shopby-pro-admin/input_password"), "YY6OvKdam5zXcWhrYqhBkg=="): Text ****** has been set on object 'Object Repository/Page_shopby-pro-admin/input_password'
+
+2022-01-14 15:52:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_shopby-pro-admin/input_password'
+
+2022-01-14 15:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/button_login")): Object: 'Object Repository/Page_shopby-pro-admin/button_login' is clicked on
+
+2022-01-14 15:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/button_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/memberList" time="3.742" classname="Test Cases/memberList" status="PASSED">
+         <system-out><![CDATA[2022-01-14 15:52:39 - [TEST_CASE][PASSED] - Test Cases/memberList: Test Cases/memberList
+
+2022-01-14 15:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_member")): Object: 'Object Repository/Page_shopby-pro-admin/a_member' is clicked on
+
+2022-01-14 15:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_member' is clicked on
+
+2022-01-14 15:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MembeLlist")): Object: 'Object Repository/Page_shopby-pro-admin/a__MembeLlist' is clicked on
+
+2022-01-14 15:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MembeLlist' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/membeReg" time="1.989" classname="Test Cases/membeReg" status="PASSED">
+         <system-out><![CDATA[2022-01-14 15:52:43 - [TEST_CASE][PASSED] - Test Cases/membeReg: Test Cases/membeReg
+
+2022-01-14 15:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-14 15:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-14 15:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MemberReg")): Object: 'Object Repository/Page_shopby-pro-admin/a__MemberReg' is clicked on
+
+2022-01-14 15:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MemberReg' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-14 15:52:26 - [TEST_SUITE][PASSED] - memberManagement: Test Cases/membeReg]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

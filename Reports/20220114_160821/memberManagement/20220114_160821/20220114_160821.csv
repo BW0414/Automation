@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+memberManagement,Chrome 97.0.4692.71,,,2022-01-14 16:08:31,2022-01-14 16:08:58,26.740s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 97.0.4692.71,,,2022-01-14 16:08:31,2022-01-14 16:08:45,13.775s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-14 16:08:32,2022-01-14 16:08:40,8.300s,PASSED
+"navigateToUrl(""https://alpha-admin.shopby.co.kr/pro/auth"")",Chrome 97.0.4692.71,,,2022-01-14 16:08:40,2022-01-14 16:08:43,3.335s,PASSED
+"setText(findTestObject(""Page_shopby-pro-admin/input_id""), ""shopbyproadmin"")",Chrome 97.0.4692.71,,,2022-01-14 16:08:43,2022-01-14 16:08:44,0.716s,PASSED
+"setEncryptedText(findTestObject(""Page_shopby-pro-admin/input_password""), ""YY6OvKdam5zXcWhrYqhBkg=="")",Chrome 97.0.4692.71,,,2022-01-14 16:08:44,2022-01-14 16:08:45,0.432s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/button_login""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:45,2022-01-14 16:08:45,0.414s,PASSED
+,,,,,,,
+Test Cases/Member List,Chrome 97.0.4692.71,,,2022-01-14 16:08:45,2022-01-14 16:08:50,4.503s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_member""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:46,2022-01-14 16:08:49,2.931s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MembeLlist""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:49,2022-01-14 16:08:50,0.787s,PASSED
+,,,,,,,
+Test Cases/Member Reg,Chrome 97.0.4692.71,,,2022-01-14 16:08:50,2022-01-14 16:08:52,2.153s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:51,2022-01-14 16:08:51,0.457s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MemberReg""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:51,2022-01-14 16:08:52,0.710s,PASSED
+,,,,,,,
+Test Cases/Withdraw Member List,Chrome 97.0.4692.71,,,2022-01-14 16:08:52,2022-01-14 16:08:54,2.024s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:53,2022-01-14 16:08:53,0.448s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__WithdrawMemberList""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:53,2022-01-14 16:08:54,0.645s,PASSED
+,,,,,,,
+Test Cases/Dormant Member List,Chrome 97.0.4692.71,,,2022-01-14 16:08:54,2022-01-14 16:08:56,2.138s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:55,2022-01-14 16:08:55,0.482s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__DormantMemberList""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:55,2022-01-14 16:08:56,0.560s,PASSED
+,,,,,,,
+Test Cases/Membership Level Management,Chrome 97.0.4692.71,,,2022-01-14 16:08:56,2022-01-14 16:08:58,1.696s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:57,2022-01-14 16:08:57,0.381s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MembershipLevelManagement""))",Chrome 97.0.4692.71,,,2022-01-14 16:08:57,2022-01-14 16:08:58,0.608s,PASSED
