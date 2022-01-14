@@ -19,22 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://alpha-admin.shopby.co.kr/pro/auth')
 
-WebUI.setText(findTestObject('null'), 'shopbyproadmin')
+WebUI.setText(findTestObject('Page_shopby-pro-admin/input_id'), 'shopbyproadmin')
 
-WebUI.setEncryptedText(findTestObject('null'), 'YY6OvKdam5zXcWhrYqhBkg==')
+WebUI.setEncryptedText(findTestObject('Page_shopby-pro-admin/input_password'), 'YY6OvKdam5zXcWhrYqhBkg==')
 
-WebUI.click(findTestObject('null'))
-
-<<<<<<< HEAD
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-=======
->>>>>>> branch '0114testeg' of https://github.com/hwanta/shopby.git
+WebUI.click(findTestObject('Page_shopby-pro-admin/button_login'))
