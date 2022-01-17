@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="member" time="54.801" tests="12" failures="1" errors="0">
+   <testsuite name="member" tests="12" failures="1" errors="0" time="54.801" skipped="0" timestamp="2022-01-17 09:05:27" hostname="NHN - 10.78.206.220" id="Test Suites/member">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NHN\\git\\shopby\\Reports\\20220117_090521\\member\\20220117_090521"/>
+         <property name="logFiles" value="C:\\Users\\NHN\\git\\shopby\\Reports\\20220117_090521\\member\\20220117_090521\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\NHN\\git\\shopby\\Reports\\20220117_090521\\member\\20220117_090521\\1642377978812.png, C:\\Users\\NHN\\git\\shopby\\Reports\\20220117_090521\\member\\20220117_090521\\1642377980014.png, C:\\Users\\NHN\\git\\shopby\\Reports\\20220117_090521\\member\\20220117_090521\\1642377981146.png, C:\\Users\\NHN\\git\\shopby\\Reports\\20220117_090521\\member\\20220117_090521\\1642377982234.png"/>
+         <property name="hostName" value="NHN - 10.78.206.220"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="10.78.206.220"/>
+         <property name="sessionId" value="e78c8d5ba6fc1993b30981bce157e96c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" time="18.938" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:05:28 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2022-01-17 09:05:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 09:05:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 09:05:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 09:05:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 09:05:41 - [TEST_STEP][PASSED] - navigateToUrl("https://alpha-admin.shopby.co.kr/pro/auth"): Navigate to 'https://alpha-admin.shopby.co.kr/pro/auth' successfully
+
+2022-01-17 09:05:45 - [MESSAGE][PASSED] - Navigate to 'https://alpha-admin.shopby.co.kr/pro/auth' successfully
+
+2022-01-17 09:05:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_shopby-pro-admin/input_id"), "shopbyproadmin"): Text 'shopbyproadmin' is set on object 'Object Repository/Page_shopby-pro-admin/input_id'
+
+2022-01-17 09:05:46 - [MESSAGE][PASSED] - Text 'shopbyproadmin' is set on object 'Object Repository/Page_shopby-pro-admin/input_id'
+
+2022-01-17 09:05:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_shopby-pro-admin/input_password"), "YY6OvKdam5zXcWhrYqhBkg=="): Text ****** has been set on object 'Object Repository/Page_shopby-pro-admin/input_password'
+
+2022-01-17 09:05:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_shopby-pro-admin/input_password'
+
+2022-01-17 09:05:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/button_login")): Object: 'Object Repository/Page_shopby-pro-admin/button_login' is clicked on
+
+2022-01-17 09:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/button_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Member List" time="4.534" classname="Test Cases/Member List" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:05:47 - [TEST_CASE][PASSED] - Test Cases/Member List: Test Cases/Member List
+
+2022-01-17 09:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_member")): Object: 'Object Repository/Page_shopby-pro-admin/a_member' is clicked on
+
+2022-01-17 09:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_member' is clicked on
+
+2022-01-17 09:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MemberLlist")): Object: 'Object Repository/Page_shopby-pro-admin/a__MemberLlist' is clicked on
+
+2022-01-17 09:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MemberLlist' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Member Reg" time="2.957" classname="Test Cases/Member Reg" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:05:51 - [TEST_CASE][PASSED] - Test Cases/Member Reg: Test Cases/Member Reg
+
+2022-01-17 09:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MemberReg")): Object: 'Object Repository/Page_shopby-pro-admin/a__MemberReg' is clicked on
+
+2022-01-17 09:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MemberReg' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Withdraw Member List" time="2.798" classname="Test Cases/Withdraw Member List" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:05:54 - [TEST_CASE][PASSED] - Test Cases/Withdraw Member List: Test Cases/Withdraw Member List
+
+2022-01-17 09:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__WithdrawMemberList")): Object: 'Object Repository/Page_shopby-pro-admin/a__WithdrawMemberList' is clicked on
+
+2022-01-17 09:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__WithdrawMemberList' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dormant Member List" time="2.521" classname="Test Cases/Dormant Member List" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:05:57 - [TEST_CASE][PASSED] - Test Cases/Dormant Member List: Test Cases/Dormant Member List
+
+2022-01-17 09:05:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__DormantMemberList")): Object: 'Object Repository/Page_shopby-pro-admin/a__DormantMemberList' is clicked on
+
+2022-01-17 09:06:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__DormantMemberList' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership Level Management" time="2.649" classname="Test Cases/Membership Level Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:06:00 - [TEST_CASE][PASSED] - Test Cases/Membership Level Management: Test Cases/Membership Level Management
+
+2022-01-17 09:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MembershipLevelManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a__MembershipLevelManagement' is clicked on
+
+2022-01-17 09:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MembershipLevelManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Reserve Settings" time="2.717" classname="Test Cases/Manage Reserve Settings" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:06:02 - [TEST_CASE][PASSED] - Test Cases/Manage Reserve Settings: Test Cases/Manage Reserve Settings
+
+2022-01-17 09:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/span_PointManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_PointManagement' is clicked on
+
+2022-01-17 09:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_PointManagement' is clicked on
+
+2022-01-17 09:06:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/a__ManageReserveSetting")): Object: 'Object Repository/Page_shopby-pro-admin/a__ManageReserveSetting' is clicked on
+
+2022-01-17 09:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__ManageReserveSetting' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Point Payment Deduction Management" time="2.966" classname="Test Cases/Point Payment Deduction Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:06:05 - [TEST_CASE][PASSED] - Test Cases/Point Payment Deduction Management: Test Cases/Point Payment Deduction Management
+
+2022-01-17 09:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/span_PointManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_PointManagement' is clicked on
+
+2022-01-17 09:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_PointManagement' is clicked on
+
+2022-01-17 09:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__PointPaymentDedutionManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a__PointPaymentDedutionManagement' is clicked on
+
+2022-01-17 09:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__PointPaymentDedutionManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mail Management" time="2.949" classname="Test Cases/Mail Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:06:08 - [TEST_CASE][PASSED] - Test Cases/Mail Management: Test Cases/Mail Management
+
+2022-01-17 09:06:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span__MailManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span__MailManagement' is clicked on
+
+2022-01-17 09:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span__MailManagement' is clicked on
+
+2022-01-17 09:06:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MailManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a__MailManagement' is clicked on
+
+2022-01-17 09:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MailManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS Management" time="2.748" classname="Test Cases/SMS Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:06:11 - [TEST_CASE][PASSED] - Test Cases/SMS Management: Test Cases/SMS Management
+
+2022-01-17 09:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_SMSManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_SMSManagement' is clicked on
+
+2022-01-17 09:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_SMSManagement' is clicked on
+
+2022-01-17 09:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_SMSManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a_SMSManagement' is clicked on
+
+2022-01-17 09:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_SMSManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/080 Rejection Management" time="2.694" classname="Test Cases/080 Rejection Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:06:14 - [TEST_CASE][PASSED] - Test Cases/080 Rejection Management: Test Cases/080 Rejection Management
+
+2022-01-17 09:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_SMSManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_SMSManagement' is clicked on
+
+2022-01-17 09:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_SMSManagement' is clicked on
+
+2022-01-17 09:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_080RejectionManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a_080RejectionManagement' is clicked on
+
+2022-01-17 09:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_080RejectionManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Notification Talk Management" time="1.086" classname="Test Cases/Notification Talk Management" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Notification Talk Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationTalkManagement'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Notification Talk Management.run(Notification Talk Management:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642377921495.run(TempTestSuite1642377921495.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'AL01590832', ip: '10.78.206.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\NHN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e78c8d5ba6fc1993b30981bce157e96c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-01-17 09:06:21 - [TEST_CASE][FAILED] - Test Cases/Notification Talk Management: Test Cases/Notification Talk Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationTalkManagement'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Notification Talk Management.run(Notification Talk Management:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642377921495.run(TempTestSuite1642377921495.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'AL01590832', ip: '10.78.206.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\NHN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e78c8d5ba6fc1993b30981bce157e96c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-01-17 09:06:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:06:21 - [TEST_STEP][FAILED] - click(findTestObject("Page_shopby-pro-admin/span_KakaoNotificationTalkManagement")): Unable to click on object 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationTalkManagement' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationTalkManagement'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Notification Talk Management.run(Notification Talk Management:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642377921495.run(TempTestSuite1642377921495.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'AL01590832', ip: '10.78.206.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\NHN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e78c8d5ba6fc1993b30981bce157e96c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642375332264.run(Script1642375332264.groovy:22)
+	... 16 more
+)
+
+2022-01-17 09:06:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationTalkManagement' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationTalkManagement'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Notification Talk Management.run(Notification Talk Management:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642377921495.run(TempTestSuite1642377921495.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'AL01590832', ip: '10.78.206.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\NHN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e78c8d5ba6fc1993b30981bce157e96c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1642375332264.run(Script1642375332264.groovy:22)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\NHN\\git\\shopby\\Reports\\20220117_090521\\member\\20220117_090521\\1642377982234.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-17 09:06:21 - [TEST_CASE][FAILED] - Test Cases/Notification Talk Management: Test Cases/Notification Talk Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationTalkManagement'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Notification Talk Management.run(Notification Talk Management:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642377921495.run(TempTestSuite1642377921495.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'AL01590832', ip: '10.78.206.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\NHN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e78c8d5ba6fc1993b30981bce157e96c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-17 09:05:27 - [TEST_SUITE][FAILED] - member: Test Cases/Notification Talk Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationTalkManagement'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Notification Talk Management.run(Notification Talk Management:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642377921495.run(TempTestSuite1642377921495.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'AL01590832', ip: '10.78.206.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\NHN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e78c8d5ba6fc1993b30981bce157e96c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-17 09:05:27 - [TEST_SUITE][FAILED] - member: Test Cases/Notification Talk Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationTalkManagement'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Notification Talk Management.run(Notification Talk Management:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642377921495.run(TempTestSuite1642377921495.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'AL01590832', ip: '10.78.206.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\NHN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e78c8d5ba6fc1993b30981bce157e96c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

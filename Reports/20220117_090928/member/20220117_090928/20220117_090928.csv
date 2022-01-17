@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+member,Chrome 97.0.4692.71,,,2022-01-17 09:09:39,2022-01-17 09:10:34,54.799s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 97.0.4692.71,,,2022-01-17 09:09:40,2022-01-17 09:10:02,21.780s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 09:09:41,2022-01-17 09:09:55,13.952s,PASSED
+"navigateToUrl(""https://alpha-admin.shopby.co.kr/pro/auth"")",Chrome 97.0.4692.71,,,2022-01-17 09:09:55,2022-01-17 09:10:00,4.792s,PASSED
+"setText(findTestObject(""Page_shopby-pro-admin/input_id""), ""shopbyproadmin"")",Chrome 97.0.4692.71,,,2022-01-17 09:10:00,2022-01-17 09:10:01,0.951s,PASSED
+"setEncryptedText(findTestObject(""Page_shopby-pro-admin/input_password""), ""YY6OvKdam5zXcWhrYqhBkg=="")",Chrome 97.0.4692.71,,,2022-01-17 09:10:01,2022-01-17 09:10:01,0.529s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/button_login""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:01,2022-01-17 09:10:02,0.553s,PASSED
+,,,,,,,
+Test Cases/Member List,Chrome 97.0.4692.71,,,2022-01-17 09:10:02,2022-01-17 09:10:06,4.033s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:03,2022-01-17 09:10:04,1.189s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:04,2022-01-17 09:10:05,0.511s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MemberLlist""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:05,2022-01-17 09:10:06,0.817s,PASSED
+,,,,,,,
+Test Cases/Member Reg,Chrome 97.0.4692.71,,,2022-01-17 09:10:06,2022-01-17 09:10:08,2.478s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:07,2022-01-17 09:10:07,0.442s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:07,2022-01-17 09:10:08,0.423s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MemberReg""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:08,2022-01-17 09:10:08,0.607s,PASSED
+,,,,,,,
+Test Cases/Withdraw Member List,Chrome 97.0.4692.71,,,2022-01-17 09:10:08,2022-01-17 09:10:11,2.778s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:09,2022-01-17 09:10:10,0.517s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:10,2022-01-17 09:10:10,0.533s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__WithdrawMemberList""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:10,2022-01-17 09:10:11,0.700s,PASSED
+,,,,,,,
+Test Cases/Dormant Member List,Chrome 97.0.4692.71,,,2022-01-17 09:10:11,2022-01-17 09:10:14,2.745s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:12,2022-01-17 09:10:13,0.477s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:13,2022-01-17 09:10:13,0.495s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__DormantMemberList""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:13,2022-01-17 09:10:14,0.703s,PASSED
+,,,,,,,
+Test Cases/Membership Level Management,Chrome 97.0.4692.71,,,2022-01-17 09:10:14,2022-01-17 09:10:17,2.833s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:15,2022-01-17 09:10:16,0.469s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:16,2022-01-17 09:10:16,0.450s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MembershipLevelManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:16,2022-01-17 09:10:17,0.695s,PASSED
+,,,,,,,
+Test Cases/Manage Reserve Settings,Chrome 97.0.4692.71,,,2022-01-17 09:10:17,2022-01-17 09:10:20,2.855s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:18,2022-01-17 09:10:18,0.452s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/span_PointManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:18,2022-01-17 09:10:19,0.465s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/a__ManageReserveSetting""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:19,2022-01-17 09:10:20,1.037s,PASSED
+,,,,,,,
+Test Cases/Point Payment Deduction Management,Chrome 97.0.4692.71,,,2022-01-17 09:10:20,2022-01-17 09:10:23,3.011s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:20,2022-01-17 09:10:21,0.470s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/span_PointManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:21,2022-01-17 09:10:22,0.772s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__PointPaymentDedutionManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:22,2022-01-17 09:10:23,0.907s,PASSED
+,,,,,,,
+Test Cases/Mail Management,Chrome 97.0.4692.71,,,2022-01-17 09:10:23,2022-01-17 09:10:26,3.032s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:23,2022-01-17 09:10:24,0.412s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span__MailManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:24,2022-01-17 09:10:25,0.776s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MailManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:25,2022-01-17 09:10:26,0.996s,PASSED
+,,,,,,,
+Test Cases/SMS Management,Chrome 97.0.4692.71,,,2022-01-17 09:10:26,2022-01-17 09:10:28,2.806s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:26,2022-01-17 09:10:27,0.432s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_SMSManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:27,2022-01-17 09:10:28,0.741s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_SMSManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:28,2022-01-17 09:10:28,0.809s,PASSED
+,,,,,,,
+Test Cases/080 Rejection Management,Chrome 97.0.4692.71,,,2022-01-17 09:10:28,2022-01-17 09:10:31,2.723s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:29,2022-01-17 09:10:30,0.394s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_SMSManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:30,2022-01-17 09:10:30,0.703s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_080RejectionManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:30,2022-01-17 09:10:31,0.859s,PASSED
+,,,,,,,
+Test Cases/Notification Talk Management,Chrome 97.0.4692.71,,,2022-01-17 09:10:31,2022-01-17 09:10:34,2.782s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:32,2022-01-17 09:10:32,0.408s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_KakaoNotificationManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:32,2022-01-17 09:10:33,0.725s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_NotificationManagement""))",Chrome 97.0.4692.71,,,2022-01-17 09:10:33,2022-01-17 09:10:34,0.911s,PASSED

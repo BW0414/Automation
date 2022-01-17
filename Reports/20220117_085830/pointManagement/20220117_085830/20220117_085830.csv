@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pointManagement,Chrome 97.0.4692.71,,,2022-01-17 08:58:38,2022-01-17 08:59:07,29.422s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 97.0.4692.71,,,2022-01-17 08:58:39,2022-01-17 08:59:00,21.427s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 08:58:39,2022-01-17 08:58:53,13.952s,PASSED
+"navigateToUrl(""https://alpha-admin.shopby.co.kr/pro/auth"")",Chrome 97.0.4692.71,,,2022-01-17 08:58:53,2022-01-17 08:58:58,4.718s,PASSED
+"setText(findTestObject(""Page_shopby-pro-admin/input_id""), ""shopbyproadmin"")",Chrome 97.0.4692.71,,,2022-01-17 08:58:58,2022-01-17 08:58:59,0.923s,PASSED
+"setEncryptedText(findTestObject(""Page_shopby-pro-admin/input_password""), ""YY6OvKdam5zXcWhrYqhBkg=="")",Chrome 97.0.4692.71,,,2022-01-17 08:58:59,2022-01-17 08:58:59,0.513s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/button_login""))",Chrome 97.0.4692.71,,,2022-01-17 08:58:59,2022-01-17 08:59:00,0.520s,PASSED
+,,,,,,,
+Test Cases/Point Payment Deduction Management,Chrome 97.0.4692.71,,,2022-01-17 08:59:00,2022-01-17 08:59:04,4.120s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 08:59:01,2022-01-17 08:59:03,1.165s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/span_PointManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:59:03,2022-01-17 08:59:03,0.537s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__PointPaymentDedutionManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:59:03,2022-01-17 08:59:04,1.028s,PASSED
+,,,,,,,
+Test Cases/Manage Reserve Settings,Chrome 97.0.4692.71,,,2022-01-17 08:59:04,2022-01-17 08:59:07,3.244s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 08:59:05,2022-01-17 08:59:06,0.542s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/span_PointManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:59:06,2022-01-17 08:59:06,0.749s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/a__ManageReserveSetting""))",Chrome 97.0.4692.71,,,2022-01-17 08:59:06,2022-01-17 08:59:07,1.086s,PASSED

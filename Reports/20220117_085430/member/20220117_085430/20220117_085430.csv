@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+member,Chrome 97.0.4692.71,,,2022-01-17 08:54:38,2022-01-17 08:55:22,43.598s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 97.0.4692.71,,,2022-01-17 08:54:39,2022-01-17 08:55:00,21.339s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 08:54:39,2022-01-17 08:54:53,13.147s,PASSED
+"navigateToUrl(""https://alpha-admin.shopby.co.kr/pro/auth"")",Chrome 97.0.4692.71,,,2022-01-17 08:54:53,2022-01-17 08:54:58,5.163s,PASSED
+"setText(findTestObject(""Page_shopby-pro-admin/input_id""), ""shopbyproadmin"")",Chrome 97.0.4692.71,,,2022-01-17 08:54:58,2022-01-17 08:54:59,0.989s,PASSED
+"setEncryptedText(findTestObject(""Page_shopby-pro-admin/input_password""), ""YY6OvKdam5zXcWhrYqhBkg=="")",Chrome 97.0.4692.71,,,2022-01-17 08:54:59,2022-01-17 08:54:59,0.602s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/button_login""))",Chrome 97.0.4692.71,,,2022-01-17 08:54:59,2022-01-17 08:55:00,0.588s,PASSED
+,,,,,,,
+Test Cases/Member List,Chrome 97.0.4692.71,,,2022-01-17 08:55:00,2022-01-17 08:55:04,4.297s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_member""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:02,2022-01-17 08:55:03,1.247s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:03,2022-01-17 08:55:03,0.531s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MemberLlist""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:03,2022-01-17 08:55:04,0.865s,PASSED
+,,,,,,,
+Test Cases/Member Reg,Chrome 97.0.4692.71,,,2022-01-17 08:55:04,2022-01-17 08:55:07,2.747s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:05,2022-01-17 08:55:06,0.496s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:06,2022-01-17 08:55:06,0.454s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MemberReg""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:06,2022-01-17 08:55:07,0.706s,PASSED
+,,,,,,,
+Test Cases/Withdraw Member List,Chrome 97.0.4692.71,,,2022-01-17 08:55:07,2022-01-17 08:55:10,2.949s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:08,2022-01-17 08:55:09,0.467s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:09,2022-01-17 08:55:09,0.550s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__WithdrawMemberList""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:09,2022-01-17 08:55:10,0.835s,PASSED
+,,,,,,,
+Test Cases/Dormant Member List,Chrome 97.0.4692.71,,,2022-01-17 08:55:10,2022-01-17 08:55:13,2.745s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:11,2022-01-17 08:55:12,0.444s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:12,2022-01-17 08:55:12,0.457s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__DormantMemberList""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:12,2022-01-17 08:55:13,0.671s,PASSED
+,,,,,,,
+Test Cases/Membership Level Management,Chrome 97.0.4692.71,,,2022-01-17 08:55:13,2022-01-17 08:55:16,2.810s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:14,2022-01-17 08:55:14,0.462s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span_MemberManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:14,2022-01-17 08:55:15,0.458s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MembershipLevelManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:15,2022-01-17 08:55:16,0.833s,PASSED
+,,,,,,,
+Test Cases/Manage Reserve Settings,Chrome 97.0.4692.71,,,2022-01-17 08:55:16,2022-01-17 08:55:18,2.755s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:16,2022-01-17 08:55:17,0.427s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/span_PointManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:17,2022-01-17 08:55:17,0.455s,PASSED
+"click(findTestObject(""Object Repository/Page_shopby-pro-admin/a__ManageReserveSetting""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:17,2022-01-17 08:55:18,0.981s,PASSED
+,,,,,,,
+Test Cases/Mail Management,Chrome 97.0.4692.71,,,2022-01-17 08:55:18,2022-01-17 08:55:22,3.218s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a_Member""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:19,2022-01-17 08:55:20,0.482s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/span__MailManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:20,2022-01-17 08:55:21,0.672s,PASSED
+"click(findTestObject(""Page_shopby-pro-admin/a__MailManagement""))",Chrome 97.0.4692.71,,,2022-01-17 08:55:21,2022-01-17 08:55:22,0.983s,PASSED

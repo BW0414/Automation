@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="member" time="54.799" tests="12" failures="0" errors="0">
+   <testsuite name="member" tests="12" failures="0" errors="0" time="54.799" skipped="0" timestamp="2022-01-17 09:09:39" hostname="NHN - 10.78.206.220" id="Test Suites/member">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NHN\\git\\shopby\\Reports\\20220117_090928\\member\\20220117_090928"/>
+         <property name="logFiles" value="C:\\Users\\NHN\\git\\shopby\\Reports\\20220117_090928\\member\\20220117_090928\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NHN - 10.78.206.220"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="10.78.206.220"/>
+         <property name="sessionId" value="c6dce825360c550f00a4822bdb324c70"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" time="21.78" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:09:40 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2022-01-17 09:09:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 09:09:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 09:09:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 09:09:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 09:09:55 - [TEST_STEP][PASSED] - navigateToUrl("https://alpha-admin.shopby.co.kr/pro/auth"): Navigate to 'https://alpha-admin.shopby.co.kr/pro/auth' successfully
+
+2022-01-17 09:10:00 - [MESSAGE][PASSED] - Navigate to 'https://alpha-admin.shopby.co.kr/pro/auth' successfully
+
+2022-01-17 09:10:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_shopby-pro-admin/input_id"), "shopbyproadmin"): Text 'shopbyproadmin' is set on object 'Object Repository/Page_shopby-pro-admin/input_id'
+
+2022-01-17 09:10:01 - [MESSAGE][PASSED] - Text 'shopbyproadmin' is set on object 'Object Repository/Page_shopby-pro-admin/input_id'
+
+2022-01-17 09:10:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_shopby-pro-admin/input_password"), "YY6OvKdam5zXcWhrYqhBkg=="): Text ****** has been set on object 'Object Repository/Page_shopby-pro-admin/input_password'
+
+2022-01-17 09:10:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_shopby-pro-admin/input_password'
+
+2022-01-17 09:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/button_login")): Object: 'Object Repository/Page_shopby-pro-admin/button_login' is clicked on
+
+2022-01-17 09:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/button_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Member List" time="4.033" classname="Test Cases/Member List" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:02 - [TEST_CASE][PASSED] - Test Cases/Member List: Test Cases/Member List
+
+2022-01-17 09:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_member")): Object: 'Object Repository/Page_shopby-pro-admin/a_member' is clicked on
+
+2022-01-17 09:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_member' is clicked on
+
+2022-01-17 09:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MemberLlist")): Object: 'Object Repository/Page_shopby-pro-admin/a__MemberLlist' is clicked on
+
+2022-01-17 09:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MemberLlist' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Member Reg" time="2.478" classname="Test Cases/Member Reg" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:06 - [TEST_CASE][PASSED] - Test Cases/Member Reg: Test Cases/Member Reg
+
+2022-01-17 09:10:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MemberReg")): Object: 'Object Repository/Page_shopby-pro-admin/a__MemberReg' is clicked on
+
+2022-01-17 09:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MemberReg' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Withdraw Member List" time="2.778" classname="Test Cases/Withdraw Member List" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:08 - [TEST_CASE][PASSED] - Test Cases/Withdraw Member List: Test Cases/Withdraw Member List
+
+2022-01-17 09:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__WithdrawMemberList")): Object: 'Object Repository/Page_shopby-pro-admin/a__WithdrawMemberList' is clicked on
+
+2022-01-17 09:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__WithdrawMemberList' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dormant Member List" time="2.745" classname="Test Cases/Dormant Member List" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:11 - [TEST_CASE][PASSED] - Test Cases/Dormant Member List: Test Cases/Dormant Member List
+
+2022-01-17 09:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__DormantMemberList")): Object: 'Object Repository/Page_shopby-pro-admin/a__DormantMemberList' is clicked on
+
+2022-01-17 09:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__DormantMemberList' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership Level Management" time="2.833" classname="Test Cases/Membership Level Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:14 - [TEST_CASE][PASSED] - Test Cases/Membership Level Management: Test Cases/Membership Level Management
+
+2022-01-17 09:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_MemberManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_MemberManagement' is clicked on
+
+2022-01-17 09:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MembershipLevelManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a__MembershipLevelManagement' is clicked on
+
+2022-01-17 09:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MembershipLevelManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Reserve Settings" time="2.855" classname="Test Cases/Manage Reserve Settings" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:17 - [TEST_CASE][PASSED] - Test Cases/Manage Reserve Settings: Test Cases/Manage Reserve Settings
+
+2022-01-17 09:10:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/span_PointManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_PointManagement' is clicked on
+
+2022-01-17 09:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_PointManagement' is clicked on
+
+2022-01-17 09:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/a__ManageReserveSetting")): Object: 'Object Repository/Page_shopby-pro-admin/a__ManageReserveSetting' is clicked on
+
+2022-01-17 09:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__ManageReserveSetting' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Point Payment Deduction Management" time="3.011" classname="Test Cases/Point Payment Deduction Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:20 - [TEST_CASE][PASSED] - Test Cases/Point Payment Deduction Management: Test Cases/Point Payment Deduction Management
+
+2022-01-17 09:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/span_PointManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_PointManagement' is clicked on
+
+2022-01-17 09:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_PointManagement' is clicked on
+
+2022-01-17 09:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__PointPaymentDedutionManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a__PointPaymentDedutionManagement' is clicked on
+
+2022-01-17 09:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__PointPaymentDedutionManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mail Management" time="3.032" classname="Test Cases/Mail Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:23 - [TEST_CASE][PASSED] - Test Cases/Mail Management: Test Cases/Mail Management
+
+2022-01-17 09:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span__MailManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span__MailManagement' is clicked on
+
+2022-01-17 09:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span__MailManagement' is clicked on
+
+2022-01-17 09:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a__MailManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a__MailManagement' is clicked on
+
+2022-01-17 09:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a__MailManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS Management" time="2.806" classname="Test Cases/SMS Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:26 - [TEST_CASE][PASSED] - Test Cases/SMS Management: Test Cases/SMS Management
+
+2022-01-17 09:10:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_SMSManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_SMSManagement' is clicked on
+
+2022-01-17 09:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_SMSManagement' is clicked on
+
+2022-01-17 09:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_SMSManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a_SMSManagement' is clicked on
+
+2022-01-17 09:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_SMSManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/080 Rejection Management" time="2.723" classname="Test Cases/080 Rejection Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:28 - [TEST_CASE][PASSED] - Test Cases/080 Rejection Management: Test Cases/080 Rejection Management
+
+2022-01-17 09:10:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_SMSManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_SMSManagement' is clicked on
+
+2022-01-17 09:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_SMSManagement' is clicked on
+
+2022-01-17 09:10:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_080RejectionManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a_080RejectionManagement' is clicked on
+
+2022-01-17 09:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_080RejectionManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Notification Talk Management" time="2.782" classname="Test Cases/Notification Talk Management" status="PASSED">
+         <system-out><![CDATA[2022-01-17 09:10:31 - [TEST_CASE][PASSED] - Test Cases/Notification Talk Management: Test Cases/Notification Talk Management
+
+2022-01-17 09:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_shopby-pro-admin/a_Member")): Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_Member' is clicked on
+
+2022-01-17 09:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/span_KakaoNotificationManagement")): Object: 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationManagement' is clicked on
+
+2022-01-17 09:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/span_KakaoNotificationManagement' is clicked on
+
+2022-01-17 09:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_shopby-pro-admin/a_NotificationManagement")): Object: 'Object Repository/Page_shopby-pro-admin/a_NotificationManagement' is clicked on
+
+2022-01-17 09:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_shopby-pro-admin/a_NotificationManagement' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-17 09:09:39 - [TEST_SUITE][PASSED] - member: Test Cases/Notification Talk Management]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
