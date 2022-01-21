@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='popups-area']/div[2]/div/div/div[2]/button[2]/span</value>
+         <value>//div[@id='popups-area']/div[2]/div/div/div[2]/button/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn_confirm.btnClosePopup > span</value>
+         <value>button.btn_cancel.btnClosePopup > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,18 +29,53 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                                확인
-                            </value>
+                            닫기
+                        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popups-area&quot;)/div[@class=&quot;layer_wrap dimed&quot;]/div[@class=&quot;box common_popup_body&quot;]/div[@class=&quot;view&quot;]/div[@class=&quot;btn_box&quot;]/button[@class=&quot;btn_confirm btnClosePopup&quot;]/span[1]</value>
+      <value>id(&quot;popups-area&quot;)/div[@class=&quot;layer_wrap dimed&quot;]/div[@class=&quot;box common_popup_body&quot;]/div[@class=&quot;view&quot;]/div[@class=&quot;btn_box&quot;]/button[@class=&quot;btn_cancel btnClosePopup&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popups-area']/div[2]/div/div/div[2]/button/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='알림'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='공지사항'])[2]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='닫기']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
