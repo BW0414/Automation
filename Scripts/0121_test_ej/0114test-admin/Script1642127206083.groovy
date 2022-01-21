@@ -21,15 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://admin.shopby.co.kr/pro/auth')
 
-WebUI.setText(findTestObject('0121_ejtest/input__ncp_input w220'), 'gej0120')
+WebUI.setText(findTestObject('Object Repository/0121_ejtest/input__ncp_input w220'), 'gej0120')
 
-WebUI.setEncryptedText(findTestObject('0121_ejtest/input__w220'), 'ego1gPyxqJW93PDxYz6W/Q==')
+WebUI.setEncryptedText(findTestObject('Object Repository/0121_ejtest/input__w220'), 'ego1gPyxqJW93PDxYz6W/Q==')
 
-WebUI.click(findTestObject('0121_ejtest/button_'))
-
-WebUI.click(findTestObject('0121_ejtest/a_'))
-
-WebUI.click(findTestObject('0121_ejtest/a__1'))
+WebUI.sendKeys(findTestObject('Object Repository/0121_ejtest/input__w220'), Keys.chord(Keys.ENTER))
 
 WebUI.closeBrowser()
 

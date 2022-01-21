@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Repository/0121_ejtest/input__member-id'), 
 
 WebUI.setEncryptedText(findTestObject('Object Repository/0121_ejtest/input__member-password'), 'eMxGV5P4A6L5uQ9PgXqMKQ==')
 
-WebUI.click(findTestObject('Object Repository/0121_ejtest/button_'))
+WebUI.click(findTestObject('0121_ejtest/login_button'))
 
 WebUI.closeBrowser()
 

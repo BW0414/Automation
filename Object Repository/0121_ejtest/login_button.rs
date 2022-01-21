@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_</name>
+   <name>login_button</name>
    <tag></tag>
    <elementGuidId>8e5df50e-1449-4ac9-ad8f-ee33c2bed1b2</elementGuidId>
    <selectorCollection>
