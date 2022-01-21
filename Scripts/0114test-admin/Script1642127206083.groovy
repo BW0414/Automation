@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://admin.shopby.co.kr/pro/auth')
+
+WebUI.setText(findTestObject('0121_ejtest/input__ncp_input w220'), 'gej0120')
+
+WebUI.setEncryptedText(findTestObject('0121_ejtest/input__w220'), 'ego1gPyxqJW93PDxYz6W/Q==')
+
+WebUI.click(findTestObject('0121_ejtest/button_'))
+
+WebUI.click(findTestObject('0121_ejtest/a_'))
+
+WebUI.click(findTestObject('0121_ejtest/a__1'))
+
+WebUI.closeBrowser()
+
